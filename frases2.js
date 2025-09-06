@@ -1,4 +1,4 @@
-const frases1 = [
+const frases2 = [
   "Seja forte diante dos desafios 💪 Continue em frente com coragem 🚀 Acredite em você e no seu potencial 🌟 Nunca desista dos seus sonhos 🔥 A persistência abre portas que parecem fechadas 🏆",
       "Coragem é seguir mesmo com medo 🛡️ Sorria sempre mesmo nas dificuldades 😊 Tenha fé no seu caminho 🙏 A vitória vem para quem insiste 🏅 Cada erro traz aprendizado valioso 📚 O sucesso é construído com disciplina ✨",
       "A força interior move montanhas 🌈 Dedicação transforma objetivos em realidade 🌞 Determinação supera qualquer obstáculo 🎯 Resiliência é o segredo da conquista ⚡ Continue em frente com coragem 💪 Sorria sempre mesmo nas dificuldades 🚀",

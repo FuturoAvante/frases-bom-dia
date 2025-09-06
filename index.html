@@ -2,28 +2,25 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Frases de Bom Dia</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Frases de Bom Dia</h1>
-  <input type="text" id="nomeInput" placeholder="Digite o nome aqui...">
-
-  <div class="card" id="card">
-    <div class="nome" id="nome">Nome da Pessoa</div>
-    <div class="frase" id="frase"></div>
-  </div>
-
-  <div class="botoes">
+  <div class="container">
+    <h1>Frases de Bom Dia</h1>
+    <input type="text" id="nome" placeholder="Digite seu nome">
     <button onclick="gerarFrase()">Gerar Frase</button>
-    <button onclick="copiarFrase()">Copiar Frase</button>
-    <button onclick="enviarWhatsApp()">Compartilhar no WhatsApp</button>
+    <div id="frase" class="frase"></div>
+    <div class="botoes">
+      <button onclick="copiarFrase()">Copiar</button>
+      <button onclick="compartilharWhatsApp()">WhatsApp</button>
+    </div>
   </div>
 
-  <script src="frases1.js"></script>
-  <script src="frases2.js"></script>
-  <script src="frases3.js"></script>
+  <!-- Importa frases e script -->
+  <script src="frases_demo.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
+
+

@@ -4,7 +4,7 @@ const fraseDisplay = document.getElementById('frase');
 const card = document.getElementById('card');
 
 // Junta todas as frases
-const frases = [...frases3, ...frases2, ...frases1];
+const frases = [...frases3.js, ...frases2.js, ...frases1.js];
 
 function obterDiaSemana() {
   const dias = ['domingo','segunda-feira','terça-feira','quarta-feira','quinta-feira','sexta-feira','sábado'];
@@ -35,4 +35,5 @@ function enviarWhatsApp() {
   const texto = nomeDisplay.textContent + ': ' + fraseDisplay.textContent;
   window.open('https://api.whatsapp.com/send?text=' + encodeURIComponent(texto), '_blank');
 }
+
 
